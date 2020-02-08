@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A22BA4B2-B42E-429B-BB49-561D38E85BC1}</ProjectGuid>
+    <ProjectGuid>{6E68F9FC-548D-47F2-BE50-1B8EA1282840}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>HepajSharp.ESP</RootNamespace>
@@ -46,11 +46,6 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-      <Project>{2df4f3e8-419a-4f6f-86f6-8aba3e887aee}</Project>
-      <Name>HepajSharp.Core</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
